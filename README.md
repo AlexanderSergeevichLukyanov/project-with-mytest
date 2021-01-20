@@ -14,7 +14,7 @@
 ### Внутри
 + `CHECK(bool x)` проверка справедливости `x`. Хотя бы один неверный `CHECK` - неверен весь `TEST_CASE`
 + `CHECK_MESSAGE(bool x, std::string msg)` - то же, что и `CHECK`, но при `false` выводится `msg`
-+ `CHECK_TIME(std::string mark)` - проверка сколько времени прошло с начала работы TEST_CASE
++ `CHECK_TIME(std::string mark)` - проверка сколько времени прошло с начала работы `TEST_CASE`
 ### Правила
 + никаких `int main()` при запуске теста (он в `mytest_main.cpp`)!
 + нельзя 2 `TEST_CASE` на одной строке!
